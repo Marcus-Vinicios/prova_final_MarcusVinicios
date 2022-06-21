@@ -1,0 +1,7 @@
+<h2></h2>
+<div class="carros-menu">
+  <a *ngFor="let carro of carro"
+    routerLink="/detail/{{carro.id}}">
+    {{carro.modelo}}
+  </a>
+</div>
